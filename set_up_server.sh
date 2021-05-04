@@ -10,5 +10,5 @@ CONFIG="conf = get_config()
 conf.NotebookApp.ip = '0.0.0.0'
 conf.NotebookApp.password = u'$HASH'
 conf.NotebookApp.port = 9999"
-echo "$CONFIG" > ~/.jupyter/jupyter_notebook_config.py_
+echo "$CONFIG" > ~/.jupyter/jupyter_notebook_config.py
 echo "$CONFIG"
