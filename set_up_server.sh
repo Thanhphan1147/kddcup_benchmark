@@ -9,5 +9,5 @@ CONFIG="conf = get_config()
 conf.NotebookApp.ip = '0.0.0.0'
 conf.NotebookApp.password = u'$HASH'
 conf.NotebookApp.port = 9999"
-echo "$CONFIG" > ~/config.py
+echo "$CONFIG" > /tmp/config.py
 echo "$CONFIG"
