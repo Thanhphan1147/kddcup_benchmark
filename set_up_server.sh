@@ -1,7 +1,8 @@
 #!/bin/bash
 wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
 bash Anaconda3-2020.11-Linux-x86_64.sh
-echo "export PATH=/home/ubuntu/anaconda3/bin:$PATH" >> ~/.bashrc
+# 
+echo "export PATH=/root/anaconda3/bin:$PATH" >> ~/.bashrc
 # PATH="/home/ubuntu/anaconda3/bin:$PATH"
 PATH="/root/anaconda3/bin:$PATH"
 echo $PATH
@@ -12,3 +13,7 @@ conf.NotebookApp.password = u'$HASH'
 conf.NotebookApp.port = 9999"
 echo "$CONFIG" > /tmp/config.py
 echo "$CONFIG"
+
+wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz
+wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.testdata.unlabeled.gz
+gunzip kddcup.data.gz kddcup.testdata.unlabeled.gz
