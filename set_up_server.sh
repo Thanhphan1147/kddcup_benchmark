@@ -16,6 +16,6 @@ conf.NotebookApp.port = 9999"
 echo "$CONFIG" > /tmp/config.py
 echo "$CONFIG"
 
-wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz
-wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.testdata.unlabeled.gz
-gunzip kddcup.data.gz kddcup.testdata.unlabeled.gz
+# wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz
+# wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.testdata.unlabeled.gz
+# gunzip kddcup.data.gz kddcup.testdata.unlabeled.gz
