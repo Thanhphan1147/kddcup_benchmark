@@ -5,6 +5,8 @@ echo "------------$(pwd)-----------------"
 echo "running as $(whoami), in $(pwd)"
 PWD=$(pwd)
 USER=$(whoami)
+git clone https://github.com/Thanhphan1147/kddcup_benchmark.git
+cd kddcup_benchmark
 echo 'export PATH="/home/$USER/anaconda3/bin:$PATH"' >> ~/.bashrc
 echo $PATH
 
