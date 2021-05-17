@@ -1,4 +1,6 @@
 #!/bin/bash
 useradd -m jupyter
-cd /home/jupyter
-su -c "scripts/get_scripts.sh" jupyter
+cp -r scripts/ /home/jupyter
+cd /home/jupyter/scripts
+echo "$(pwd), $(whoami)"
+su -c "./get_script.sh" jupyter
