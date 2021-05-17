@@ -4,6 +4,7 @@ r=$(which python)
 echo "python: $r"
 # useradd jupyter
 # su jupyter
+CONFIG="/home/$USER/config"
 jupyter notebook --generate-config
-cat config > ~/.jupyter/jupyter_notebook_config.py
+cat $CONFIG > ~/.jupyter/jupyter_notebook_config.py
 /bin/bash -c "jupyter notebook"
