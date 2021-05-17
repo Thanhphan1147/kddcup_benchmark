@@ -7,6 +7,8 @@ USER=$(whoami)
 echo 'export PATH="/home/$USER/anaconda3/bin:$PATH"' >> /home/$USER/.bashrc
 echo "------------path: $PATH"
 
+head -n 5 /home/$USER/.bashrc
+
 CONFIG="/home/$USER/config"
 HASH="sha1:b07c86db1a39:696471a7f56df7014738a7da317d83442a010da8"
 

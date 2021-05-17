@@ -7,5 +7,5 @@ echo "python: $r"
 # su jupyter
 CONFIG="/home/$USER/config"
 /bin/bash -c "jupyter notebook --generate-config"
-cat $CONFIG > ~/.jupyter/jupyter_notebook_config.py
-/bin/bash -c "jupyter notebook"
+cat $CONFIG > /home/$USER/.jupyter/jupyter_notebook_config.py
+# /bin/bash -c "jupyter notebook"
