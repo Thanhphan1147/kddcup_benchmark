@@ -10,4 +10,4 @@ wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.data.gz
 wget http://kdd.ics.uci.edu/databases/kddcup99/kddcup.testdata.unlabeled.gz
 gunzip kddcup.data.gz kddcup.testdata.unlabeled.gz
 
-./set_up_server.sh
+./scripts/set_up_server.sh
