@@ -2,9 +2,10 @@
 # echo 'export PATH="/home/ubuntu/anaconda3/bin:$PATH"' >> ~/.bashrc
 echo "------------running as $(whoami), in $(pwd)"
 PWD=$(pwd)
-USER=$(whoami)
+USER="jupyter"
+PROFILE="/home/$USER/.bashrc"
 
-echo 'export PATH="/home/$USER/anaconda3/bin:$PATH"' >> /home/$USER/.bashrc
+echo 'export PATH="/home/jupyter/anaconda3/bin:$PATH"' >> /home/$USER/.bashrc
 echo "------------path: $PATH"
 
 head -n 5 /home/$USER/.bashrc
@@ -20,4 +21,4 @@ echo "conf.NotebookApp.port = 9999" >> $CONFIG
 echo "---------"
 cat $CONFIG
 
-./scripts/launch_notebook.sh
+sh -c "./launch_notebook.sh" jupyter
