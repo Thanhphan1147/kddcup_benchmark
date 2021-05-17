@@ -19,4 +19,4 @@ echo "conf.NotebookApp.port = 9999" >> $CONFIG
 cat $CONFIG
 echo "$CONFIGFILE"
 
-./launch_notebook.sh"
+./scripts/launch_notebook.sh
