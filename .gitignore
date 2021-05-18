@@ -1,3 +1,5 @@
 kddcup*
 Anaconda*
 config
+__pycache__/
+.jupyter/
