@@ -6,7 +6,7 @@ USER="jupyter"
 PROFILE="/home/$USER/.bashrc"
 
 echo 'export PATH="/home/jupyter/anaconda3/bin:$PATH"' >> /home/$USER/.bashrc
-echo "------------path: $PATH"
+echo "---DEBUG : path: $PATH"
 
 head -n 5 /home/$USER/.bashrc
 

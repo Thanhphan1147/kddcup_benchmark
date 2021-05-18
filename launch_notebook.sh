@@ -1,6 +1,6 @@
 #!/bin/bash
 USER=$(whoami)
-head -n 5 /home/$USER/.bashrc
+# head -n 5 /home/$USER/.bashrc
 source /home/$USER/.bashrc
 r=$(which python)
 echo "python: $r"
