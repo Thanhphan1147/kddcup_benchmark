@@ -23,6 +23,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import make_scorer
 from sklearn.metrics import accuracy_score
+from sklearn.metrics import precision_score
 
 import pandas as pd
 import numpy as np
