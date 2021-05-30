@@ -21,4 +21,4 @@ echo "conf.NotebookApp.port = 9999" >> $CONFIG
 echo "---------"
 cat $CONFIG
 
-sh -c "./launch_notebook.sh" jupyter
+/bin/bash -c "./launch_notebook.sh" 
