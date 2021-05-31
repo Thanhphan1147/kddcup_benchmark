@@ -1,7 +1,8 @@
 #!/bin/bash
 USER=$(whoami)
 # head -n 5 /home/$USER/.bashrc
-/bin/bash - c "source /home/$USER/.bashrc"
+echo $USER
+/bin/bash -c "source /home/$USER/.bashrc"
 r=$(which python)
 echo "python: $r"
 # useradd jupyter
