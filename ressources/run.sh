@@ -2,7 +2,7 @@
 userdel jupyter
 rm -rf /home/jupyter
 useradd -m jupyter
-cp *.sh /home/jupyter
+cp ressources/*.sh /home/jupyter
 cd /home/jupyter
 
 echo "--- DEBUG: $(pwd), $(whoami)"
