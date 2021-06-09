@@ -74,31 +74,39 @@
 	* Dataset: SF 10%
 	* Anomaly rate : 4.5%	
 	* random_state = 1
-	* contamination : tuned using gridsearch_cv [0.045, 0.02]
+	* contamination : tuned manually [0.045, 0.02]
 	* n_estimator : default
 	* max_samples : default
 
-1. 
+2. 
 	* Dataset: SF 20%
 	* Anomaly rate : 0.5%	
 	* random_state = 2
-	* contamination : tuned using gridsearch_cv [0.005, 0.02]
+	* contamination : tuned manually [0.005, 0.02]
 	* n_estimator : default
 	* max_samples : default
 
 3. 
 	* Dataset: SF 50%
-	* Anomaly rate : 0.5%
-	* random_state : 3
-	* contamination : tuned using gridsearch_cv [0.005, 0.02]
+	* Anomaly rate : 0.5%	
+	* random_state = 2
+	* contamination : tuned manually [0.005, 0.02]
 	* n_estimator : default
 	* max_samples : default
 
-4. 
+5. 
+	* Dataset: SF 70%
+	* Anomaly rate : 0.5%
+	* random_state : 3
+	* contamination : tuned manually [0.005, 0.02]
+	* n_estimator : default
+	* max_samples : default
+
+6. 
 	* Dataset: SF 100%
 	* Anomaly rate : 0.5%
 	* random_state : 4
-	* contamination : tuned using gridsearch_cv [0.005, 0.02]
+	* contamination : tuned manually [0.005, 0.02]
 	* n_estimator : default
 	* max_samples : default
 
