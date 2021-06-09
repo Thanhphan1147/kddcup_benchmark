@@ -1,7 +1,3 @@
-# Table of contents
-## notebook
-* 
-
 # Progress history
 ## W1-2 : 19.04 - 03.05 : Initialize the document, trainning algorithms on default parameters
 ## W3-4 : 03.05 - 17.05 : Parameter tuning on different configurations
