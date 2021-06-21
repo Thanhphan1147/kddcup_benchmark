@@ -141,5 +141,16 @@
 	* n_estimator : default
 	* max_samples : default
 
+### Work log : 
+* Tuned algorithms manually starting Week 7 since gridsearch cv proved to not yield a good enough result
+* Split the original SA dataset into normal and abnormal dât
+* Frac 
+
+## Increasing the number of normal data
+* Script: `notebook/Increasing the number of normal data.ipynb`
+We start with the 1% SA dataset, the data is then split into normal and abnormal data
+
+### Work log
+Week 8 : Worked on 
 # Author
 Phan Trung Thành
